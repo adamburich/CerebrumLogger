@@ -1,0 +1,13 @@
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.csproj.AssemblyReference.cache
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.AssemblyInfoInputs.cache
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.AssemblyInfo.cs
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.csproj.CoreCompileInputs.cache
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\bin\Debug\net48\CerebrumLogger.dll
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\bin\Debug\net48\CerebrumLogger.pdb
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.dll
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.pdb
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\bin\Debug\net48\Newtonsoft.Json.dll
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\bin\Debug\net48\TinCan.dll
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\CerebrumLogger.sourcelink.json
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net48\Cerebrum.39706E38.Up2Date

@@ -1,0 +1,12 @@
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\bin\Debug\net6.0\CerebrumLogger.deps.json
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\bin\Debug\net6.0\CerebrumLogger.dll
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\bin\Debug\net6.0\CerebrumLogger.pdb
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\CerebrumLogger.csproj.AssemblyReference.cache
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\CerebrumLogger.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\CerebrumLogger.AssemblyInfoInputs.cache
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\CerebrumLogger.AssemblyInfo.cs
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\CerebrumLogger.csproj.CoreCompileInputs.cache
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\CerebrumLogger.dll
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\refint\CerebrumLogger.dll
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\CerebrumLogger.pdb
+D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\obj\Debug\net6.0\ref\CerebrumLogger.dll

@@ -1,0 +1,228 @@
+{
+    "id": "http://gamestrax.com/games/UCG",
+    "definition": {
+        "type": "http://gamestrax.com/define/type/game"
+    },
+    "context": {
+        "extensions": {
+            "http://gamestrax.com/extensions/patient_type": "UC Indwelling Catheter [F-1]"
+        }
+    },
+    "stages": [
+        {
+            "id": "http://gamestrax.com/games/UCG/stages/1",
+            "definition": {
+                "type": "http://gamestrax.com/define/type/stage"
+            },
+            "_activities": [
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/check_cow",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/exit_cow",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_markable": false
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/verify_headboard",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "Yes", "No", "Unsure" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "Yes" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/verify_wrist_tag",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "Yes", "No", "Unsure" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "Yes" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/dialogue_name",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "Yes", "No", "Unsure" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "Yes" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/ask_ic",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "Yes", "No", "Unsure" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "Yes" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/confirm_patient",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "Yes", "No", "Unsure" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "Yes" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/1/activities/assess_ecg",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_markable": false
+                }
+            ]
+        },
+        {
+            "id": "http://gamestrax.com/games/UCG/stages/2",
+            "definition": {
+                "type": "http://gamestrax.com/define/type/stage"
+            },
+            "_activities": [
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/2/activities/prepare_items",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "SalineAmpoule", "WaterAmpoule", "ChlorSachet", "NormalSaline", "Iodine", "UC12", "UC14", "UC16" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "UC12", "UC14", "ChlorSachet", "WaterAmpoule" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq_submit",
+                    "_score": 1,
+                    "_markable": true
+                }
+            ]
+        },
+        {
+            "id": "http://gamestrax.com/games/UCG/stages/3",
+            "definition": {
+                "type": "http://gamestrax.com/define/type/stage"
+            },
+            "_activities": [
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/close_curtain",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/hand_hygiene",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "standard", "surgical" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "standard" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/position_patient",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity",
+                        "extensions": {
+                            "http://gamestrax.com/extensions/options": [ "dorsal recumbent", "knee chest position", "lithotomy" ],
+                            "http://gamestrax.com/extensions/correct_options": [ "dorsal recumbent" ]
+                        }
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/mcq",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/incontinence_sheet",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/open_set",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/injection_water",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/antiseptic",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_score": 1,
+                    "_markable": true
+                },
+                {
+                    "id": "http://gamestrax.com/games/UCG/stages/3/activities/lubricant",
+                    "definition": {
+                        "type": "http://gamestrax.com/define/type/activity"
+                    },
+                    "_type": "http://gamestrax.com/define/type/activity/action",
+                    "_score": 1,
+                    "_markable": true
+                }
+            ]
+        },
+        {
+            "id": "http://gamestrax.com/games/UCG/stages/4",
+            "definition": {
+                "type": "http://gamestrax.com/define/type/stage"
+            },
+            "_activities": [
+            ]
+        }
+    ]
+}
