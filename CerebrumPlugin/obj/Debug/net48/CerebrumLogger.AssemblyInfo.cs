@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CerebrumLogger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27a889b1e876a87532e940533c3be0c146963546")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a92d50ae32bd4ae06b3c659404b713fdad13c5e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CerebrumLogger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CerebrumLogger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

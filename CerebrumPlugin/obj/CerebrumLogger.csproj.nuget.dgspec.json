@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Git\\Unity-xAPI-Wrapper\\CerebrumPlugin\\CerebrumLogger.csproj": {}
+    "D:\\Documents\\Git\\CerebrumLogger\\CerebrumPlugin\\CerebrumLogger.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Git\\Unity-xAPI-Wrapper\\CerebrumPlugin\\CerebrumLogger.csproj": {
+    "D:\\Documents\\Git\\CerebrumLogger\\CerebrumPlugin\\CerebrumLogger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Git\\Unity-xAPI-Wrapper\\CerebrumPlugin\\CerebrumLogger.csproj",
+        "projectUniqueName": "D:\\Documents\\Git\\CerebrumLogger\\CerebrumPlugin\\CerebrumLogger.csproj",
         "projectName": "CerebrumLogger",
-        "projectPath": "D:\\Documents\\Git\\Unity-xAPI-Wrapper\\CerebrumPlugin\\CerebrumLogger.csproj",
+        "projectPath": "D:\\Documents\\Git\\CerebrumLogger\\CerebrumPlugin\\CerebrumLogger.csproj",
         "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Git\\Unity-xAPI-Wrapper\\CerebrumPlugin\\obj\\",
+        "outputPath": "D:\\Documents\\Git\\CerebrumLogger\\CerebrumPlugin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,13 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
+            "Com.RusticiSoftware.Cloud.V2": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.3, )"
             },
             "TinCan": {
               "target": "Package",
