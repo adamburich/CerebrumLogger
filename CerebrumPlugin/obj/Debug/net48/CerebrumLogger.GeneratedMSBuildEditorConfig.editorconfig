@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = CerebrumLogger
-build_property.ProjectDir = D:\Documents\Git\CerebrumLogger\CerebrumPlugin\
+build_property.ProjectDir = D:\Documents\Git\Unity-xAPI-Wrapper\CerebrumPlugin\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
